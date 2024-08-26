@@ -7,9 +7,6 @@ import org.springframework.boot.diagnostics.FailureAnalyzer;
 @Slf4j
 public class ProjectFailureAnalyzer implements FailureAnalyzer {
 
-    public ProjectFailureAnalyzer() {
-
-    }
 
     @Override
     public FailureAnalysis analyze(Throwable failure) {
