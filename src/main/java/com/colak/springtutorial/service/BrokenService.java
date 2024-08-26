@@ -6,6 +6,6 @@ import org.springframework.stereotype.Service;
 public class BrokenService {
 
     public BrokenService() {
-        throw new IllegalArgumentException("Failed to construct a BrokenService, because...");
+        throw new InsufficientMaxMemoryException("Failed to construct a BrokenService, because...");
     }
 }
